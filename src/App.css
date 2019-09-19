@@ -1,0 +1,81 @@
+.App {
+  /* text-align: center; */
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(20px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.from-to-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.from-to-input table td {
+  padding: 5px 10px;
+}
+
+.from-to-input input {
+  border: 1px solid #61dafb;
+  padding: 5px 10px;
+  font-size: calc(4px + 2vmin);
+  border-radius: 4px;
+}
+
+.button {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 4px;
+  background-color: rgb(33, 172, 52);
+  font-size: calc(6px + 2vmin);
+  color: #fff;
+}
+
+.error {
+  color: rgb(235, 17, 17);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+.ant-form-item-label > label {
+  color: #fff;
+}
+
+.ant-form-item-with-help {
+  margin-bottom: 12px;
+}
